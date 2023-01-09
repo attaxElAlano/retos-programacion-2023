@@ -13,8 +13,42 @@
  *   (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a")
  */
 ```
-#### Tienes toda la información extendida sobre los retos de programación semanales en **[retosdeprogramacion.com/semanales2023](https://retosdeprogramacion.com/semanales2023)**.
+palabra = input(" Introducir texto ")
 
-Sigue las **[instrucciones](../../README.md)**, consulta las correcciones y aporta la tuya propia utilizando el lenguaje de programación que quieras.
+letras = list(palabra)
 
-> Recuerda que cada semana se publica un nuevo ejercicio y se corrige el de la semana anterior en directo desde **[Twitch](https://twitch.tv/mouredev)**. Tienes el horario en la sección "eventos" del servidor de **[Discord](https://discord.gg/mouredev)**.
+diccionario = dict()
+
+diccionario = {
+    'a': "4",
+    'b': "I3",
+    'c': "[",
+    'd': ")",
+    'e': "3",
+    'f': "|=",
+    'g': "&",
+    'h': "#",
+    'i': "1",
+    'j': ",_|",
+    'k': ">|",
+    'l': "1",
+    'm': "/\/\ ",
+    'n': "^/",
+    'o': "0",
+    'p': "|*",
+    'q': "(_,)",
+    'r': "I2",
+    's': "5",
+    't': "7",
+    'u': "(_)",
+    'v': "\/",
+    'w': "\/\/",
+    'x': "><",
+    'y': "j",
+    'z': "2",
+    ' ': " "
+}
+
+for caracter in letras:
+    print(diccionario[caracter], end="")
+> 
